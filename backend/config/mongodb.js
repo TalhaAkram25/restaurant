@@ -1,12 +1,10 @@
 import mongoose from 'mongoose';
 import dotenv from "dotenv";
 
-
 dotenv.config({path: "./config/dotenv.env"});
 
-// console.log(process.env.MONGO_DB_URI)
-
 export const connectToMongoDb = ()=> {
+    // access mongo db uri from .env file
     mongoose.connect(process.env.MONGO_DB_URI,{
         dbName: "RESTAURANT"
     }).then(()=>{

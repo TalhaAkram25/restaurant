@@ -1,9 +1,8 @@
 import express  from "express";
-import { sendReservation } from "../controllers/resrve-controller.js"
+import { send_reservation } from "../controllers/resrve-controller.js"
 
 const router = express.Router();
-
-router.post('/send', sendReservation)
+router.post('/send', send_reservation)
 
 
 export default router

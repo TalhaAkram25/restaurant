@@ -5,19 +5,19 @@
                 "id": 1,
                 "image": "./quality_food.svg",
                 "title": "QUALITY FOOD",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Savor delicious dishes made with care and fresh ingredients every day." 
             },
             {
                 "id": 2,
                 "image": "./super_taste.svg",
                 "title": "SUPER TASTE",
-                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing sit amet elit. Sit voluptates quaerat pariatur." 
+                "description": "Experience mouthwatering flavors that delight your taste buds with every bite." 
             },
             {
                 "id": 3,
                 "image": "./fast_delivery.svg",
                 "title": "FAST DELIVERY",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Enjoy quick and efficient delivery, bringing delicious meals to your doorstep." 
             }
         ],
         "dishes": [
@@ -111,47 +111,45 @@
         "testimonials": [
             {
                 "id": 1,
-                "image": "./review1.png",
-                "description": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus.",
-                "rating": 4,
-                "userName": "Jane Cooper"
+                "image": "./review_1.png",
+                "userName": "Jane Cooper",
+                "description": "Foody is a gem! From the cozy ambiance to the exceptional service, everything is truly top-notch.Highly recommended! "            
             },
             {
                 "id": 2,
-                "image": "./review2.png",
-                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
-                "rating": 4.5,
-                "userName": "Esther Howard"
+                "image": "./review_2.png",
+                "userName": "Esther Howard",
+                "description": "Foody never disappoints! The food is always fresh, flavorful, and incredibly satisfying."             
             },
             {
                 "id": 3,
-                "image": "./review3.png",
-                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
-                "rating": 5,
-                "userName": "Guy Hawkins"
+                "image": "./review_3.png",
+                "userName": "Guy Hawkins",
+                "description": "Absolutely delicious! Foody's dishes are simply amazing. Can't wait to go back again!"           
             }
         ],
         "who_we_are": [
             {
                 "id": 1,
-                "number": "14",
+                "number": "05",
                 "title": "Restaurants"
             },
             {
                 "id": 2,
-                "number": "20",
+                "number": "50+",
+                "title": "Food Dishes"
+            },
+            {
+                "id": 4,
+                "number": "15",
                 "title": "Chef In Kitchen"
             },
             {
                 "id": 3,
-                "number": "08",
+                "number": "12",
                 "title": "Years Of Experience"
-            },
-            {
-                "id": 4,
-                "number": "200",
-                "title": "Food Dishes"
             }
+            
         ],
         "navbarLinks": [
             {
@@ -178,6 +176,12 @@
                 "id": 5,
                 "title": "RESERVATION",
                 "link": "reservation"
+            }
+        ],
+        "service_para":[
+            {
+                "id":1,
+                "para": "Discover the exquisite culinary journey that awaits at Foody. Our restaurant prides itself on offering a diverse array of delectable dishes meticulously crafted by our talented chefs. From savory starters to indulgent mains and divine desserts, each dish is prepared with the finest ingredients to tantalize your taste buds and elevate your dining experience. Whether you're craving traditional favorites or seeking adventurous flavors, our menu has something for everyone.With impeccable service and a warm, inviting ambiance, Foody is more than just a restaurant – it's a destination where memories are made and culinary dreams come true.   "
             }
         ]
     

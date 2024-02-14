@@ -19,11 +19,11 @@ const reservationSchema = new mongoose.Schema({
         required:true,
         validate:[validator.isEmail,"Provide a valid email"]
     },
-    phoneNumber:{
+    phone:{
         type:String,
         required:true,
         minLength: [11,"Phone number must contain 11 characters"],
-        maxLength: [11,"Phone number must contain 11 characters"] 
+        maxLength: [11,"Phone number must contain 11 characters"]
     },
     time:{
         type:String,
@@ -35,6 +35,3 @@ const reservationSchema = new mongoose.Schema({
     }
 })
 export const Reservation = new mongoose.model('Reservation', reservationSchema);
-// module.exports = Reservation
-
-// console.log(reservationSchema)
