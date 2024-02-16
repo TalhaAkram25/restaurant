@@ -10,6 +10,10 @@
 ::-webkit-scrollbar{
     display: none;
   }
+  .ls-btn:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+  }
 
   /* media queris about and service page */
 
@@ -245,38 +249,68 @@
 /* navbar starts */
 @media (max-width: 1115px) {
   .navmargin{  
-    margin-left: 160px !important;
-    
+    margin-left: 80px !important;  
+  } 
+  .nav-lo{  
+    margin-left: 200px !important;  
   } 
 }
-@media (max-width: 1115px) {
-  .navmenu{  
-    margin-left: 230px !important;
-    
-  } 
-}
-@media (max-width: 1068px) {
+@media (max-width: 1261px) {
   .navmargin{  
-    margin-left: 120px !important
-    
+    margin-left: 120px !important;  
+  } 
+  .nav-lo{  
+    margin-left: 170px !important;  
   } 
 }
-@media (max-width: 1068px) {
-  .navmenu{  
-    margin-left: 170px !important;
-    
+@media (max-width: 1118px) {
+  .navmargin{
+    margin-left: 50px !important;
+  }
+  .nav-lo{
+    margin-left: 150px !important;
+  }
+}
+@media (max-width: 1027px) {
+  .navmargin{
+    margin-left: 10px !important;
+  }
+  .nav-lo{
+    margin-left: 120px !important;
+  }
+}
+@media (max-width: 991px) {
+  .nav-block{  
+      display: flex;
+      flex-direction: column !important;
+      margin-left: 0px !important;
+  } .nav-lo{
+    margin-left: 0px !important;
+    width: 80px !important;
+  } .navmargin{
+    margin-left: 18px !important;
+  }
+}
+@media (max-width: 1261px) {
+  .nav-ls{  
+    margin-left: 750px !important;  
+  } 
+}
+@media (max-width: 1071px) {
+  .nav-ls{  
+    margin-left: 650px !important;  
   } 
 }
 @media (max-width: 991px) {
-  .navmargin{  
-    margin-left: 15px !important;
-    
-  } 
-}
-@media (max-width: 991px) {
-  .navmenu{  
+  .nav-ls{  
+    display: flex;
+    flex-direction: column;
+    width: 83px;
     margin-left: 0px !important;  
-  } 
+  }
+  .btn1{
+    width: 70px !important;
+  }
 }
 /* footer section */
 @media (max-width: 1115px) {
