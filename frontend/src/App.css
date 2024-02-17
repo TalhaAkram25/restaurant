@@ -14,6 +14,7 @@
     border: 1px solid white;
     border-radius: 5px;
   }
+  
 
   /* media queris about and service page */
 
@@ -403,3 +404,16 @@
     margin-left: 25px !important;
   }
 }
+/* login singup forms */
+@media (max-width: 365px) {
+  .ls-form{
+    width: 330px !important;
+  }.ls-content{
+    margin-left: 0px;
+  }
+} 
+@media (max-width: 336px) {
+  .ls-form{
+    width: 310px !important;
+  }
+} 

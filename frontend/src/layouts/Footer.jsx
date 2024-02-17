@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="fbl">
             <p>Developed By TALHA-AKRAM</p>
           </div>
-          <div className="fbr" style={{ marginLeft: "764px" }}>
+          <div className="fbr" style={{ marginLeft: "780px" }}>
             <p>All Rights Reserved By FOODY.</p>
           </div>
         </div>
