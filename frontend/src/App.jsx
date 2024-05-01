@@ -13,8 +13,6 @@ import '../node_modules/bootstrap-dark-5/dist/css/bootstrap-dark.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
 import Footer from './layouts/Footer'
-import Login from './pages/Login.jsx'
-import Signup from './pages/Signup.jsx'
 
 
 
@@ -32,8 +30,6 @@ function App () {
       <Route exact path="/reservation" element={<Reservation/>} />
       <Route exact path="/services" element={<Services/>} />
       <Route exact path="/team" element={<Team/>} />
-      <Route exact path="/login" element={<Login/>} />
-      <Route exact path="/signup" element={<Signup/>} />
       </Routes>
       <Footer/>   
     </>

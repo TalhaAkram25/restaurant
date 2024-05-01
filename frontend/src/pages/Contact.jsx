@@ -60,9 +60,12 @@ const Contact = () => {
                 Fill out this form to stay in touch with us.
               </div>
               {/* name starts */}
+              <div className="d-flex mb-1">
               <label for="exampleFormControlInput1" className="form-label mb-0">
                 Enter your Full Name
               </label>
+              <div className="text-danger">*</div>
+              </ div>
               <input
                 className="form-control dfault"
                 style={{ width: "60%", border: "2px solid grey" }}
@@ -73,11 +76,14 @@ const Contact = () => {
               <div className="d-flex contact-email-phone">
                 <div className="d-block">
                   {/* email starts */}
+                  <div className="d-flex mb-1 mt-2">
                   <label
                     for="exampleFormControlInput1"
                     className="form-label mb-0">
                     Enter your Email
                   </label>
+                  <div className="text-danger">*</div>
+                      </div>
                   <input
                     style={{ width: "350px", border: "2px solid grey" }}
                     className="form-control dfault"
@@ -107,9 +113,12 @@ const Contact = () => {
                 </div>
               </div>
               {/* message starts */}
+              <div className="d-flex mb-1 mt-2">
               <label for="exampleFormControlInput1" className="form-label mb-0">
                 Enter your Message
               </label>
+              <div className="text-danger">*</div>
+              </div>
               <textarea
                 style={{ width: "60%", border: "2px solid grey" }}
                 className="form-control dfault2"
@@ -131,6 +140,9 @@ const Contact = () => {
                   onClick={handleContact}>
                   SEND MESSAGE
                 </button>
+                <div className="d-flex mt-2">
+                  <div className="text-danger">*</div><div className="text-muted mx-1">are required fields.</div>
+                </div>
               </div>
             </div>
           </div>

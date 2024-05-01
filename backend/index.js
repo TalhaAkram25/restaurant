@@ -5,7 +5,6 @@ import { connectToMongoDb } from "./config/mongodb.js";
 import { errorMiddliWare } from "./error/error.js"
 import reservationRouter from "./routes/reservation-route.js";
 import contactRoute from './routes/contact-route.js'
-import userRoute from './routes/user-route.js'
 
 
 connectToMongoDb();
@@ -27,8 +26,6 @@ app.use(express.urlencoded({extended: true}));
 
 app.use('/api/v1/reservation',reservationRouter)
 app.use('/api/v1/form',contactRoute)
-app.use('/api/v1/createuser',userRoute)
-app.use('/api/v1/login',userRoute)
 app.get("/", (req, res, next)=>{return res.status(200).json({
     success: true,
     message: "HELLO WORLD"

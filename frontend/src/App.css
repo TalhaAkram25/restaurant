@@ -235,6 +235,7 @@
     margin-left: 100px !important;
   } 
 }
+
 @media (max-width: 430px) {
   .review{  
     
@@ -248,71 +249,26 @@
   } 
 }
 /* navbar starts */
-@media (max-width: 1115px) {
-  .navmargin{  
-    margin-left: 80px !important;  
-  } 
-  .nav-lo{  
-    margin-left: 200px !important;  
-  } 
-}
-@media (max-width: 1261px) {
-  .navmargin{  
-    margin-left: 120px !important;  
-  } 
-  .nav-lo{  
-    margin-left: 170px !important;  
-  } 
-}
-@media (max-width: 1118px) {
-  .navmargin{
-    margin-left: 50px !important;
-  }
-  .nav-lo{
-    margin-left: 150px !important;
+@media (max-width: 1354px) {
+  .nav-ul{
+    margin-left: auto !important;
   }
 }
-@media (max-width: 1027px) {
-  .navmargin{
-    margin-left: 10px !important;
-  }
-  .nav-lo{
-    margin-left: 120px !important;
+@media (max-width: 1026px){
+  .nav-btn{
+    margin-left: 290px !important;
   }
 }
-@media (max-width: 991px) {
-  .nav-block{  
-      display: flex;
-      flex-direction: column !important;
-      margin-left: 0px !important;
-  } .nav-lo{
-    margin-left: 0px !important;
-    width: 80px !important;
-  } .navmargin{
-    margin-left: 18px !important;
+@media (max-width: 991px){
+  nav ul li {
+    margin-left: 8px;
+  }
+  .nav-btn{
+    width: 100px;
+    margin-left: 8px !important;
   }
 }
-@media (max-width: 1261px) {
-  .nav-ls{  
-    margin-left: 750px !important;  
-  } 
-}
-@media (max-width: 1071px) {
-  .nav-ls{  
-    margin-left: 650px !important;  
-  } 
-}
-@media (max-width: 991px) {
-  .nav-ls{  
-    display: flex;
-    flex-direction: column;
-    width: 83px;
-    margin-left: 0px !important;  
-  }
-  .btn1{
-    width: 70px !important;
-  }
-}
+
 /* footer section */
 @media (max-width: 1115px) {
   .ftr{  
@@ -404,16 +360,3 @@
     margin-left: 25px !important;
   }
 }
-/* login singup forms */
-@media (max-width: 365px) {
-  .ls-form{
-    width: 330px !important;
-  }.ls-content{
-    margin-left: 0px;
-  }
-} 
-@media (max-width: 336px) {
-  .ls-form{
-    width: 310px !important;
-  }
-} 
